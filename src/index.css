@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  @apply max-w-6xl mx-auto px-4 md:px-6 lg:px-8;
+}
+
+.card {
+  @apply bg-card text-cardText rounded-2xl shadow-soft p-6;
+}
+
+.card h2, .card h3 {
+  @apply font-bold text-cardText;
+}
+
+.btn {
+  @apply inline-flex items-center gap-2 rounded-2xl px-4 py-2 bg-accent text-white font-medium transition-transform hover:scale-[1.02] active:scale-95;
+}
+
+
+
+
