@@ -9,7 +9,7 @@ export default function Resume() {
         You can view or download my resume below.
       </p>
       <a
-        href="/krishnaResumeFinal.pdf"  // place your PDF inside public/
+        href="krishnaResumeFinal.pdf"  // place your PDF inside public/
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-3 px-6 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-lg shadow-md hover:bg-yellow-300 transition"
