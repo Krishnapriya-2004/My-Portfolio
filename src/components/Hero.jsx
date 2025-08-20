@@ -41,7 +41,7 @@ export default function Hero() {
       {/* Right: Profile Image in a Box */}
       <div className="flex-1 flex justify-center mt-10 md:mt-0">
         <img
-          src="/public/image/profile.jpg.jpg"  // 👉 make sure your image is in public/
+          src="/public/image/profile.jpg"  // 👉 make sure your image is in public/
           alt="Krishna Priya"
           className="w-72 h-80 object-cover rounded-xl border-4 border-yellow-400 shadow-lg hover:scale-105 transition-transform duration-300"
         />
